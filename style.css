@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#counter{
+  text-align: center;
+  font-size: 6rem;
+  margin-top: 4rem;
+}
+
+.btnContainer{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.btn{
+  padding: 2rem 4rem;
+  font-size: 2rem;
+  margin-right: 2rem;
+  background-color: aquamarine;
+  border-radius: 1rem;
+  -webkit-box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 8px -1px rgba(0,0,0,0.75);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn:hover{
+  background-color: rgb(25, 210, 149);
+  color: white;
+}
